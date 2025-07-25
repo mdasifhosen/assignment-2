@@ -159,3 +159,220 @@ body{
     margin-top: 106px;
     margin-right: 0px;
 }
+/*main part*/
+.main-title{
+    text-align: center;
+    margin-top: 120PX;
+    margin-left: 150px;
+}
+
+
+
+
+/* section part-1  flower-container*/
+.container-title{
+    text-align: center;
+    justify-items: center;
+     
+    
+    
+}
+.our-plants-title{
+    text-align: center;
+}
+
+.container{
+    width: 270px;
+    margin-top: 49px;
+    border: 0px ;
+    margin-right: 0px;
+    
+   
+    
+}
+.parent-container{
+    display: grid;
+    grid-template-columns: repeat(4 , 1fr);
+    width: 1440px;
+    
+    margin-left: 150px;
+    box-sizing: border-box;
+    padding-right: 70px;
+    
+
+}
+/* section-part-2*/
+
+
+.section-part-2{
+    display: flex;
+    margin-left: 150PX;
+    margin-right: 150PX;
+    margin-top: 210px;
+    width: 1440px;
+}
+
+.flower-title{
+    font-size: 3.125rem;
+    font-weight: bold;
+}
+
+.flower-store-img img{
+    height: 560px;
+    width: 597px;
+}
+.trusted-badge img{
+    width:286 px;
+    height: 286px;
+    margin-top: -40%;
+    margin-left: -50%;
+}
+
+
+.flower-store-description{
+    margin-top: 38px;
+    margin-right: 150px;
+    height: 521px;
+    width: 450px;
+    justify-items: center;
+    gap: 0px;
+    
+
+    
+}
+
+/*Latest Deals styles section*/
+.deal-title{
+    text-align: center;
+    margin-top: 104px;
+    width: 1140px;
+    margin-left: 170px;
+    
+    
+}
+.text-of-plant a {
+    color: rgb(251, 251, 251);
+    justify-content: center;
+    margin-left: 50px;
+}
+.text-of-plant {
+    color: white;
+    font-weight: bold;
+}
+
+.deals-images{
+    position: relative;
+    
+    
+    
+    
+}
+.deals-images img{
+    object-fit: cover;
+
+}
+.overlay{
+    position: absolute;
+    top: 0;
+    left: 0;
+    border-radius: 14px;
+    width: 367px;
+    height: 201px;
+    background-color: rgba(0 , 0, 0, 0.6);
+    z-index: 1;
+}
+.overlay-2{
+    position: absolute;
+    top: 0;
+    left: 0;
+    border-radius: 22px;
+    width: 950px;
+    height: 425px;
+    background-color: rgba(0 , 0, 0, 0.6);
+    z-index: 1;
+}
+.text{
+    position:absolute;
+    color: white;
+    z-index: 2;
+}
+
+.text-of-plant{
+   
+      position: absolute;
+      top: 50%;
+      left: 50%;
+      transform: translate(-50% , -50%);
+
+}
+.big-img{
+    margin-left: 20px;
+    width: 753px;
+    gap: auto;
+    
+    
+}
+.big-img img{
+    border-radius: 22px;
+    width: 950px;
+    height:425px ;
+}
+.blooms-ana img{
+    margin-bottom: 20px;
+    border-radius: 14px;
+
+    
+}
+
+.deals-parent-div{
+    display: flex;
+    width: 1140px;
+    justify-items: space-between;
+    margin-left: 150px;
+    margin-top: 120px;
+    
+}
+
+/*join section*/
+.section-part-4{
+    margin-top: 100px;
+}
+.img-width img{
+    width: 1600px;
+}
+.join-section-title{
+    font-size: 3.625rem;
+    font-weight: bold;
+    width: 700px;
+    height:90px ;
+    text-align: center;
+    margin-left: 500px;
+}
+
+.join-box{
+    position: relative;
+}
+.input-box{
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50% , -200%);
+}
+.input-mail-section input{
+    width: 830px;
+    height: 50px;
+    margin-top: 20px;
+    justify-items: center;
+    margin-left: 200px;
+
+}
+.input-mail-section{
+    display: flex;
+    margin-left: 150px;
+}
+.input-mail-section button{
+    margin-top: 20px;
+    gap: 0px;
+    width: 186px;
+    height: 50px;
+}
