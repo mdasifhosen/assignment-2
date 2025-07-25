@@ -1,0 +1,161 @@
+/*shared styles*/
+*{
+    
+    margin: 0;
+    padding: 0;
+    font-family: "Noto Serif", serif;
+    box-sizing: border-box;
+    gap: 0;
+}
+body{
+    overflow-x: hidden;
+    display: flex;
+    flex-direction: column;
+}
+/*text color*/
+.text-light-gray{
+    color: #8987A1;
+    
+}
+.text-orange{
+    color: #E95A08;
+}
+.text-black{
+
+     font-family: "Inter", sans-serif;
+}
+.text-color-black{
+    color: black;
+}
+
+.color-white{
+    color: white;
+}
+.bg-color{
+    background-color: rgb(247, 247, 253);
+}
+.width{
+    width:1140px;
+}
+.btn{
+    background-color: #E95A08;
+    color: white;
+    border:none ;
+    width: 270px;
+    height: 50px;
+    text-align: center;
+}
+.font-style{
+    font-weight:bold;
+}
+.padding{
+    padding-left:15.5px ;
+}
+
+  
+
+
+/*header styles*/
+.banner{
+    width: 1450px;
+    height: auto;
+    margin-top: 30px;
+    margin-right: 145px;
+    margin-left: 150px;
+    
+    
+
+}
+
+
+
+
+.banner-item{
+    display: flex;
+    justify-content: space-between;
+   
+    background-color: white;
+
+    align-items: center;
+    margin-right: 150px;
+    height: 72px;
+    
+    
+
+}
+/*navbar*/
+.logo-1 img{
+    width: 135px;
+    height: 82px;
+}
+
+.navbar ul{
+    list-style-type: none;
+    display: flex;
+    gap: 38px;
+    
+    
+}
+
+
+.navbar ul a{
+    text-decoration: none;
+    color: black;
+    
+
+    
+    
+    
+    
+}
+.nav-item{
+  width: 90px;
+  height: 80px;
+}
+.navbar{
+    justify-content: end;
+    height: 62px;
+    display: flex;
+    margin-top: 55px;
+    font-size: 1rem;
+    
+    
+}
+/*header section-02*/
+
+.banner-body{
+    margin-top: 110px;
+    margin-right: 150px;
+    background-color: white;
+    height: 461px;
+    
+    
+}
+.banner-title{
+    display: block;
+    margin-top: 200px;
+
+    
+}
+.banner-sub-title{
+    
+    font-weight: bold;
+    font-size: 4.0625rem;
+
+}
+.banner-part{
+    display: flex;
+}
+.section-02-img{
+    height: auto;
+    margin-left:  200px;
+    
+    
+    
+}
+.section-02-img img{
+    width: 100%;
+    display: block;
+    margin-top: 106px;
+    margin-right: 0px;
+}
